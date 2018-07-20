@@ -500,52 +500,52 @@ if Age >=1 and Age <=3:
     Iod_Dev2=Iod_ID*factor2
     if Avg_Iod < Iod_Dev1:
         color = 'r'
-        com_Mg = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod < Iod_Dev2:
         color = 'o'
-        com_Mg = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod >= Iod_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
+        com_Iod = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
 if Age >=4 and Age <=6:
     Iod_ID=4
     Iod_Dev1=Iod_ID*factor1
     Iod_Dev2=Iod_ID*factor2
     if Avg_Iod < Iod_Dev1:
         color = 'r'
-        com_Mg = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod < Iod_Dev2:
         color = 'o'
-        com_Mg = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod >= Iod_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
+        com_Iod = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
 if Age >=7 and Age <=12:
     Iod_ID=4
     Iod_Dev1=Iod_ID*factor1
     Iod_Dev2=Iod_ID*factor2
     if Avg_Iod < Iod_Dev1:
         color = 'r'
-        com_Mg = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod < Iod_Dev2:
         color = 'o'
-        com_Mg = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod >= Iod_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
+        com_Iod = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
 if Age >12:
     Iod_ID=2
     Iod_Dev1=Iod_ID*factor1
     Iod_Dev2=Iod_ID*factor2
     if Avg_Iod < Iod_Dev1:
         color = 'r'
-        com_Mg = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is VERY low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod < Iod_Dev2:
         color = 'o'
-        com_Mg = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
+        com_Iod = "Intake of Iodine in the food is low, consider increasing the intake of egg/ iodised salt/ dairy."
     elif Avg_Iod >= Iod_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
+        com_Iod = "There is adequate intake of Iodine through food. Iodine is used in the thyroid gland to make hormones."
 
 Avg_Selen=float(input("Enter the micro-gram/day intake of Selenium in food: "))
 if Age >=1 and Age <=3:
@@ -554,39 +554,39 @@ if Age >=1 and Age <=3:
     Selen_Dev2=Selen_ID*factor2
     if Avg_Selen < Selen_Dev1:
         color = 'r'
-        com_Mg = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen < Selen_Dev2:
         color = 'o'
-        com_Mg = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen >= Selen_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
+        com_Selen = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
 if Age >=4 and Age <=6:
     Selen_ID=22
     Selen_Dev1=Selen_ID*factor1
     Selen_Dev2=Selen_ID*factor2
     if Avg_Selen < Selen_Dev1:
         color = 'r'
-        com_Mg = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen < Selen_Dev2:
         color = 'o'
-        com_Mg = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen >= Selen_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
+        com_Selen = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
 if Age >=7 and Age <=9:
     Selen_ID=21
     Selen_Dev1=Selen_ID*factor1
     Selen_Dev2=Selen_ID*factor2
     if Avg_Selen < Selen_Dev1:
         color = 'r'
-        com_Mg = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen < Selen_Dev2:
         color = 'o'
-        com_Mg = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+        com_Selen = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
     elif Avg_Selen >= Selen_ID:
         color = 'g'
-        com_Mg = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
+        com_Selen = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
 if Age >=10 and Age <=18:
     if gender == 'M':
         Selen_ID=32
@@ -594,23 +594,23 @@ if Age >=10 and Age <=18:
         Selen_Dev2=Selen_ID*factor2
         if Avg_Selen < Selen_Dev1:
             color = 'r'
-            com_Mg = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+            com_Selen = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
         elif Avg_Selen < Selen_Dev2:
             color = 'o'
-            com_Mg = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+            com_Selen = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
         elif Avg_Selen >= Selen_ID:
             color = 'g'
-            com_Mg = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
+            com_Selen = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
     if gender == 'F':
         Selen_ID=26
         Selen_Dev1=Selen_ID*factor1
         Selen_Dev2=Selen_ID*factor2
         if Avg_Selen < Selen_Dev1:
             color = 'r'
-            com_Mg = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+            com_Selen = "Intake of Selenium in the food is VERY low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
         elif Avg_Selen < Selen_Dev2:
             color = 'o'
-            com_Mg = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
+            com_Selen = "Intake of Selenium in the food is low, consider increasing the intake of eggs/ sardines/ fish/ shellfish/ legumes/ poultry/  soy products/ pork."
         elif Avg_Selen >= Selen_ID:
             color = 'g'
-            com_Mg = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
+            com_Selen = "There is adequate intake of Selenium through food. Selenium may help prevent cardiovascular disease, thyroid problems, disorders related to thinking and cancer."
